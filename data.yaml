@@ -1,0 +1,20 @@
+# YOLOv8 Veri Seti Yapılandırma Dosyası (data.yaml)
+# Roboflow tarafından otomatik oluşturulsa da manuel düzenleme için bu formatı kullanın.
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1 # Sınıf sayısı (Örn: Sadece 'UAV' veya 'IHA')
+names: ['UAV']
+
+# Augmentasyon örnekleri (Eğitim koduna entegre edilebilir)
+# hsv_h: 0.015
+# hsv_s: 0.7
+# hsv_v: 0.4
+# degrees: 0.0
+# translate: 0.1
+# scale: 0.5
+# shear: 0.0
+# flipud: 0.0
+# fliplr: 0.5
